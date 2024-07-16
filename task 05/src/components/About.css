@@ -1,0 +1,55 @@
+.main-container {
+    margin: 0;
+    min-height: 90vh;
+    color: white;
+    padding: 0;
+    background-color: #3f3d56;
+  }
+  
+  .second-section {
+    width: 100%;
+    margin-top: 10vh;
+    min-height: 80vh;
+  }
+  
+  .about-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 83.333333%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+  
+  .about-paragraph {
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 2.5rem;
+    width: 75%;
+    margin: 0 auto;
+  }
+  
+  .highlighted-text {
+    font-weight: 500;
+    font-size: x-large;
+    color: #dc2626;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .about-title{
+      font-size: 2.5rem;
+    }
+    .about-paragraph {
+      width: 90%;
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+    }
+  
+    .separator {
+      margin: 0 2rem;
+    }
+    .main-container {
+      padding-bottom: 2rem;
+    }
+  }
+  
